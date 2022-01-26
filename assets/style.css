@@ -1,0 +1,45 @@
+body {
+  
+    height: 100vh;
+    margin: 0;
+ 
+}
+.search {
+    display: flex;
+   justify-content: center;
+   text-align: center;
+    background: white;
+    padding: 1em;
+    border-radius: 20px;
+    width: 25%;
+
+}
+#searchhistory:hover {
+    cursor: pointer;
+}
+.weatherdash {
+    border-radius: 2px, black;
+    display: block;
+    text-align: center;
+    
+}
+
+#current-weather {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+ 
+    background:white;
+    color: black;
+    margin: 10px;
+}
+.header {
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(169, 169, 245);
+}
+#forecast {
+    display: flex;
+    flex-direction: row;
+}
