@@ -119,26 +119,5 @@ async function weekforecast(city){
   }
  
 }
-//bootstrap row and collumn
-
-////});
-
-///function renderMessage() {
-//var lastGrade = JSON.parse(localStorage.getItem("studentGrade"));
-//if (lastGrade !== null) {
-//document.querySelector(".message").textContent = lastGrade.student + 
-// " received a/an " + lastGrade.grade
-// }
-//function searchHistory(list) {
-//localStorage.setItem("list", cityName)
-//localStorage.getItem("list")
-//console.log(list)
-
-
-// weathericon= response.weather[0].icon;
-//var iconurl="https://openweathermap.org/img/wn/"+weathericon +"@2x.png"
-//for (let i = 0; i < searchHistory.length; i++)
-// cities.push(cityName)
-// localStorage.removeItem("list")
 
 document.getElementById("search-button").addEventListener("click", handleSearch)
